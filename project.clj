@@ -1,4 +1,4 @@
-(defproject travelboss/logging "0.3.1"
+(defproject travelboss/logging "0.3.2"
   :description "Clojure logging with Logback and SLF4J plus request correlation across servers."
   :url "https://github.com/travelboss/logging"
   :license {:name "Apache Sofware License 2.0"
