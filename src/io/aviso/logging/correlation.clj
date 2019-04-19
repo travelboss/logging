@@ -29,7 +29,7 @@
 
   The id will be returned in the response."
   ([handler]
-   (wrap-with-request-correlation handler "Correlation-Id" default-correlation-id-generator))
+   (wrap-with-request-correlation handler "correlation-id" default-correlation-id-generator))
   ([handler header-name correlation-id-generator]
    (fn [request]
      (let [correlation-id (or (get-in request [:headers header-name])
